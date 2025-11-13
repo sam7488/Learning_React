@@ -1,5 +1,10 @@
+import Hello from './Hello';
+
 function App() {
-  return <h1>Hello</h1>
+  return <div> 
+    <h1> Hello </h1>
+    <Hello />
+  </div>
 }
 
 export default App
