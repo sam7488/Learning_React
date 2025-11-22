@@ -1,5 +1,5 @@
-li {
-  margin: 10px 0;
+li:not(:first-child):not(:last-child) {
+  margin: 5px 0;
 }
 
 .items {

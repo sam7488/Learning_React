@@ -1,6 +1,42 @@
-input {
-  width: 100%;
-  padding: 5px 2px;
-  font-size: 18px;
-  margin: 5px 0;
+.add-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;             /* space between input & button */
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.add-item input {
+  flex: 1;               /* makes input stretch nicely */
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.add-item input:focus {
+  border-color: #4a6cf7;
+  box-shadow: 0 0 4px rgba(74, 108, 247, 0.4);
+}
+
+.add-item button {
+  background: #4a6cf7;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.add-item button:hover {
+  background: #3d59d8;
+  transform: translateY(-2px);
+}
+
+.add-item button:active {
+  transform: translateY(0);
 }
