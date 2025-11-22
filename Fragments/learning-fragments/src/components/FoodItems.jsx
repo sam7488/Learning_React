@@ -10,7 +10,6 @@ const FoodItems = ({food_items}) => {
     if(!cartItems.includes(item)) {
       let temp = [...cartItems, item];
       setCartItems(temp);
-      console.log(temp)
     }
   }
 
